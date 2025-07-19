@@ -1,0 +1,126 @@
+.mainContainer {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url('../media/light_background.jpg');
+}
+
+.contactContainer {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.formContainer {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px; 
+}
+
+img {
+  width: 350px;
+  height: 350px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  margin-left: 90px; 
+}
+
+.facebook-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.contactDetails {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 200px;
+}
+
+.socialMediaAddresses {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.contactHeading {
+  margin-left: 400px;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  width: 100%;
+}
+
+.galleryHeading {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  border-color: blueviolet;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.homeContainer {
+  background-image: url('../media/dark_background.jpg');
+  background-size: cover;
+  height: '100vh';
+  width: '100vw';
+  background-position: center;
+  overflow: hidden;;
+}
+
+body {
+  height: 100%;
+}
+
+.homeHeading {
+  color: greenyellow;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.paragraph {
+  color: white;
+  margin-left: 150px;
+  margin-top: 23px;
+  font-size: 20px;
+}
+
+.paragraphHeading {
+  color: lightblue;
+  margin-left: 150px;
+  margin-top: 23px;
+  font-size: 24px;
+}
+
+.specializationContainer {
+  display: flex;
+}
+
+.specialistList {
+  color: white;
+  margin-left: 250px;
+  font-size: 20px;
+}
+
+.productList {
+  color: white;
+  margin-left: 400px;
+  font-size: 20px;
+}
+
